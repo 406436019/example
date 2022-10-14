@@ -1,0 +1,607 @@
+<html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    
+    <link rel="icon" href="data:;base64,=">
+    <meta name="description" content="UNISDK">
+    
+    <title>游戏隐私政策</title>
+
+    <style>
+      @charset "gb2312";
+      html {
+        color: #000;
+      }
+      article,
+      aside,
+      audio,
+      bdi,
+      canvas,
+      command,
+      datalist,
+      details,
+      figcaption,
+      figure,
+      footer,
+      header,
+      hgroup,
+      keygen,
+      mark,
+      meter,
+      nav,
+      output,
+      progress,
+      rp,
+      rt,
+      ruby,
+      section,
+      source,
+      summary,
+      time,
+      track,
+      video,
+      title {
+        display: block;
+      }
+      body,
+      div,
+      dl,
+      dt,
+      dd,
+      ul,
+      ol,
+      li,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      pre,
+      code,
+      form,
+      fieldset,
+      legend,
+      input,
+      textarea,
+      p,
+      blockquote,
+      th,
+      td {
+        margin: 0;
+        padding: 0;
+      }
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+      fieldset,
+      img {
+        border: 0;
+        vertucal-align: middle;
+      }
+      address,
+      caption,
+      cite,
+      code,
+      dfn,
+      em,
+      strong,
+      th,
+      var {
+        font-style: normal;
+        font-weight: 400;
+      }
+      li {
+        list-style: none;
+      }
+      caption,
+      th {
+        text-align: left;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-size: 100%;
+        font-weight: 400;
+      }
+      q:before,
+      q:after {
+        content: "";
+      }
+      abbr,
+      acronym {
+        border: 0;
+        font-variant: normal;
+      }
+      sup {
+        vertical-align: text-top;
+      }
+      sub {
+        vertical-align: text-bottom;
+      }
+      input,
+      textarea,
+      select {
+        font-family: inherit;
+        font-size: inherit;
+        font-weight: inherit;
+      }
+      input,
+      textarea,
+      select {
+        *font-size: 100%;
+      }
+      legend {
+        color: #000;
+      }
+      article a {
+        transition: all 0.5s ease-in-out;
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+      }
+      .hide {
+        display: none;
+      }
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: "Microsoft YaHei", simSun, "Lucida Grande",
+          "Lucida Sans Unicode", Arial;
+        line-height: 170%;
+        font-size: 14px;
+        color: #000;
+      }
+      i {
+        font-style: normal;
+      }
+      a {
+        color: #000;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: none;
+      }
+      a.under:link,
+      a.under:active,
+      a.under:visited,
+      a.under:hover {
+        text-decoration: underline;
+      }
+      body {
+        background: #fff;
+      }
+      .about .none {
+        display: none;
+      }
+      .wrap {
+        background: #fff;
+        color: #626262;
+      }
+      .wrap1 .header {
+        background: url(head_bg.png)
+          repeat center 0;
+        height: 54px;
+      }
+      .header {
+        height: 54px;
+        border-bottom: 4px solid #c21d35;
+        overflow: hidden;
+      }
+      .header .tit {
+        margin: 0 0 0 20px;
+        color: #fff;
+        height: 54px;
+        font: 16px "Microsoft YaHei";
+        line-height: 54px;
+        font-weight: bold;
+      }
+      .header .tit span {
+        display: inline-block;
+        height: 84px;
+        line-height: 84px;
+        font-weight: bold;
+      }
+      .main {
+        overflow: hidden;
+        margin: 0 auto;
+      }
+      .main .content {
+        overflow: hidden;
+        margin: 0 18px 0 18px;
+        float: left;
+      }
+      .main .content p {
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 10px;
+        word-break: break-all;
+      }
+      .main .text h2 {
+        font-size: 16px;
+        margin: 40px 0 30px 0;
+      }
+      .main .text .redb {
+        color: #f00;
+      }
+      footer {
+        background: #272a2c;
+        color: #ccc;
+        padding: 20px 0;
+      }
+      footer a,
+      footer #ncp-l1 {
+        color: #e23a3f;
+      }
+      footer a:hover {
+        text-decoration: underline;
+      }
+      .content {
+        padding: 0 0 37px 0;
+      }
+      .content .p1 {
+        font: 12px/18px "Microsoft YaHei";
+        color: #626262;
+        margin: 0 0 30px;
+      }
+      .content dl {
+        margin: 0 0 30px;
+        font: 12px/18px "Microsoft YaHei";
+        color: #626262;
+      }
+      @media screen and (max-device-width: 320px) {
+        body {
+          -webkit-text-size-adjust: none;
+        }
+      }
+      @media screen and (max-device-width: 480px) {
+        body {
+          -webkit-text-size-adjust: none;
+        }
+      }
+      @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+        body {
+          -webkit-text-size-adjust: none;
+        }
+      }
+      @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+        body {
+          -webkit-text-size-adjust: none;
+        }
+      }
+      .protocol-wrap {
+        width: 100%;
+        height: calc(100% - 54px);
+        height: -webkit-calc(100% - 54px);
+        background: #000000;
+        padding: 27px 0;
+      }
+      .protocol-wrap .protocol-container {
+        height: 100%;
+        width: auto;
+        background: #ffffff;
+        box-shadow: 0 0 10px 0;
+        display: -webkit-flex;
+        display: -webkit-box;
+        display: flex;
+        -webkit-flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        padding: 0 16px;
+        overflow: hidden;
+      }
+      .protocol-wrap .protocol-container .header {
+        height: 40px;
+        display: -webkit-flex;
+        display: -webkit-box;
+        display: flex;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        border: none;
+        -webkit-flex-shrink: 0;
+        flex-shrink: 0;
+      }
+      .protocol-wrap .protocol-container .header .logo {
+        width: 66px;
+        height: 24px;
+      }
+      .protocol-wrap .protocol-container .content {
+        background: #f5f5f5;
+        -webkit-flex: 1;
+        -webkit-box-flex: 1;
+        flex: 1;
+        padding: 15px 10px;
+        height: calc(100% - 80px);
+        overflow-y: auto;
+      }
+      .protocol-wrap .protocol-container .footer {
+        height: 49px;
+        -webkit-flex-shrink: 0;
+        flex-shrink: 0;
+        display: -webkit-flex;
+        display: -webkit-box;
+        display: flex;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+      }
+      .protocol-wrap .protocol-container .footer .btn {
+        width: 125px;
+        height: 29px;
+        line-height: 29px;
+        text-align: center;
+        font-size: 15px;
+        color: #ffffff;
+      }
+      .protocol-wrap .protocol-container .footer .cancel-btn {
+        background: #cf4231;
+        margin-right: 40px;
+      }
+      .protocol-wrap .protocol-container .footer .cancel-btn:active {
+        background: #a32d20;
+      }
+      .protocol-wrap .protocol-container .footer .confirm-btn {
+        background: #23b160;
+      }
+      .protocol-wrap .protocol-container .footer .confirm-btn:active {
+        background: #176d3c;
+      }
+      .protocol-wrap a {
+        color: inherit;
+        text-decoration: underline;
+      }
+      .protocol-wrap {
+        font-size: 12px;
+        line-height: 120%;
+      }
+    </style>
+  </head>
+
+  <body class="about">
+    
+    
+    <div class="wrap">
+      <div class="wrap1">
+        <div class="main">
+          <header class="header" style="text-align: center;">
+            <p class="tit">游戏隐私政策</p>
+          </header>
+          <main class="content">
+            <div id="wrap" class="content-text">
+              
+              <div class="main"><p><font color="#7a7a7a"></font></p><div style="text-align:center;"><font color="#7a7a7a"><b>游戏隐私政策</b></font></div><font color="#7a7a7a">
+</font><p></p></div>
+
+<div class=WordSection1 style='layout-grid:15.6pt'>
+
+  <p class=MsoNormal><span style='font-family:宋体'>　　重定义工作室（以下简称重定义）尊重并保护所有使用服务用户的个人隐私权。为了给您提供更准确、更有个性化的服务，重定义会按照此隐私权政策的规定使用和披露您的个人信息。除本隐私权政策另有规定外，在未征得您事先许可的情况下，本游戏不会将这些信息对外披露或向第三方提供。您在同意本游戏服务使用协议之时，即视为您已经同意本隐私权政策全部内容。本隐私权政策属于游戏服务使用协议不可分割的一部分。</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　</span><span lang=EN-US>1.</span><span
+  style='font-family:宋体'>适用范围</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　</span><span lang=EN-US>a)</span><span
+  style='font-family:宋体'>本为单机游戏，暂时不会需要任何您的个人信息，如果后期需要个人信息，将会更新此隐私政策。</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　您了解并同意，以下信息不适用本隐私权政策：</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　</span><span lang=EN-US>a)</span><span
+  style='font-family:宋体'>您在使用本游戏平台提供的搜索服务时输入的关键字信息；</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　</span><span lang=EN-US>b)</span><span
+  style='font-family:宋体'>本游戏收集到的您发布的有关信息数据，包括但不限于参与活动、成交信息及评价详情；</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　</span><span lang=EN-US>c)</span><span
+  style='font-family:宋体'>违反法律规定或违反本游戏规则行为及本游戏已对您采取的措施。</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　</span><span lang=EN-US>2.</span><span
+  style='font-family:宋体'>信息使用</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　</span><span lang=EN-US>a)</span><span
+  style='font-family:宋体'>本游戏不会向任何无关第三方提供、出售、出租、分享或交易您的个人信息，除非事先得到您的许可，或该第三方和本游戏（含本游戏关联公司）单独或共同为您提供服务，且在该服务结束后，其将被禁止访问包括其以前能够访问的所有这些资料。</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　</span><span lang=EN-US>b)</span><span
+  style='font-family:宋体'>本游戏亦不允许任何第三方以任何手段收集、编辑、出售或者无偿传播您的个人信息。任何本游戏平台用户如从事上述活动，一经发现，本有权立即终止与该用户的服务协议。</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　</span><span lang=EN-US>c)</span><span
+  style='font-family:宋体'>为服务用户的目的，本游戏可能通过使用您的个人信息，向您提供您感兴趣的信息，包括但不限于向您发出产品和服务信息，或者与本游戏合作伙伴共享信息以便他们向您发送有关其产品和服务的信息（后者需要您的事先同意）。</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　</span><span lang=EN-US>3.</span><span
+  style='font-family:宋体'>信息披露</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　在如下情况下，本游戏将依据您的个人意愿或法律的规定全部或部分的披露您的个人信息：</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　</span><span lang=EN-US>a)</span><span
+  style='font-family:宋体'>经您事先同意，向第三方披露；</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　</span><span lang=EN-US>b)</span><span
+  style='font-family:宋体'>为提供您所要求的产品和服务，而必须和第三方分享您的个人信息；</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　</span><span lang=EN-US>c)</span><span
+  style='font-family:宋体'>根据法律的有关规定，或者行政或司法机构的要求，向第三方或者行政、司法机构披露；</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　</span><span lang=EN-US>d)</span><span
+  style='font-family:宋体'>如您出现违反中国有关法律、法规或者本游戏服务协议或相关规则的情况，需要向第三方披露；</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　</span><span lang=EN-US>e)</span><span
+  style='font-family:宋体'>如您是适格的知识产权投诉人并已提起投诉，应被投诉人要求，向被投诉人披露，以便双方处理可能的权利纠纷；</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　</span><span lang=EN-US>f)</span><span
+  style='font-family:宋体'>其它本游戏根据法律、法规或者网站政策认为合适的披露。</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　</span><span lang=EN-US>4.</span><span
+  style='font-family:宋体'>信息存储和交换</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　本游戏收集的有关您的信息和资料将保存在本游戏及（或）其关联公司的服务器上，这些信息和资料可能传送至您所在国家、地区或本游戏收集信息和资料所在地的境外并在境外被访问、存储和展示。</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　本游戏所需要的权限如下：</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　外部存储读写权限</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　以上权限仅用于最基本的游戏服务，不会获取包含隐私的其他权限。</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　抵制不良游戏，拒绝盗版游戏。</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　注意自我保护，谨防受骗上当。</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　适度游戏益脑，沉迷游戏伤身。</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　合理安排时间，享受健康生活。</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　重定义工作室（以下简称重定义）尊重并保护所有使用服务用户的个人隐私权。为了给您提供更准确、更有个性化的服务，重定义会按照此隐私权政策的规定使用和披露您的个人信息。除本隐私权政策另有规定外，在未征得您事先许可的情况下，本游戏不会将这些信息对外披露或向第三方提供。您在同意本游戏服务使用协议之时，即视为您已经同意本隐私权政策全部内容。本隐私权政策属于游戏服务使用协议不可分割的一部分。</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　</span><span lang=EN-US>1.</span><span
+  style='font-family:宋体'>适用范围</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　</span><span lang=EN-US>a)</span><span
+  style='font-family:宋体'>本为单机游戏，暂时不会需要任何您的个人信息，如果后期需要个人信息，将会更新此隐私政策。</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　您了解并同意，以下信息不适用本隐私权政策：</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　</span><span lang=EN-US>a)</span><span
+  style='font-family:宋体'>您在使用本游戏平台提供的搜索服务时输入的关键字信息；</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　</span><span lang=EN-US>b)</span><span
+  style='font-family:宋体'>本游戏收集到的您发布的有关信息数据，包括但不限于参与活动、成交信息及评价详情；</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　</span><span lang=EN-US>c)</span><span
+  style='font-family:宋体'>违反法律规定或违反本游戏规则行为及本游戏已对您采取的措施。</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　</span><span lang=EN-US>2.</span><span
+  style='font-family:宋体'>信息使用</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　</span><span lang=EN-US>a)</span><span
+  style='font-family:宋体'>本游戏不会向任何无关第三方提供、出售、出租、分享或交易您的个人信息，除非事先得到您的许可，或该第三方和本游戏（含本游戏关联公司）单独或共同为您提供服务，且在该服务结束后，其将被禁止访问包括其以前能够访问的所有这些资料。</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　</span><span lang=EN-US>b)</span><span
+  style='font-family:宋体'>本游戏亦不允许任何第三方以任何手段收集、编辑、出售或者无偿传播您的个人信息。任何本游戏平台用户如从事上述活动，一经发现，本有权立即终止与该用户的服务协议。</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　</span><span lang=EN-US>c)</span><span
+  style='font-family:宋体'>为服务用户的目的，本游戏可能通过使用您的个人信息，向您提供您感兴趣的信息，包括但不限于向您发出产品和服务信息，或者与本游戏合作伙伴共享信息以便他们向您发送有关其产品和服务的信息（后者需要您的事先同意）。</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　</span><span lang=EN-US>3.</span><span
+  style='font-family:宋体'>信息披露</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　在如下情况下，本游戏将依据您的个人意愿或法律的规定全部或部分的披露您的个人信息：</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　</span><span lang=EN-US>a)</span><span
+  style='font-family:宋体'>经您事先同意，向第三方披露；</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　</span><span lang=EN-US>b)</span><span
+  style='font-family:宋体'>为提供您所要求的产品和服务，而必须和第三方分享您的个人信息；</span></p>
+  
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  
+  <p class=MsoNormal><span style='font-family:宋体'>　　</span><span lang=EN-US>c)</span><span
+  style='font-family:宋体'>根据法律的有关规定，或者行政或司法机构的要求</span></p>
+  
+  </div>
+  
+    
+  
+
+</body></html>
